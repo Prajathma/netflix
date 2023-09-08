@@ -1,0 +1,45 @@
+.search-card {
+    display: grid;
+    justify-content: center;
+    /* width: 550px; */
+    margin-top: 20px;
+    /* */
+}
+
+.search-image {
+    width: 500px;
+    border: 2px solid rgba(255, 255, 255, 0.224);
+}
+
+.search-page-top-input {
+    background-color: black;
+    color: white;
+    margin-left: 360px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.search-page-top-input::placeholder {
+    color: white;
+}
+
+.search-page-top-input::after {
+    background: black;
+}
+
+
+
+.movie_list-movie {
+    text-shadow: black;
+}
+
+.search-page-dropdown {
+    margin-left: 360px;
+    cursor: pointer;
+}
+
+.search-page-dropdown-result {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}

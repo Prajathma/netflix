@@ -1,0 +1,222 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #181818;
+}
+
+.header-left-div {
+    cursor: pointer;
+}
+
+.header-right-div {
+    cursor: pointer;
+}
+
+.header-left-div-img {
+    width: 130px;
+    height: 40px;
+}
+
+.movie-img {
+    width: 220px;
+    border-radius: 2px;
+}
+
+.description {
+    font-size: 13px;
+}
+
+.join-button {
+    border-radius: 2px;
+    width: 130px;
+    height: 35px;
+}
+
+.Tv-shows {
+    position: relative;
+    top: 7px;
+}
+
+.button-sign {
+    border: 1px solid gray;
+    border-radius: 2px;
+    color: #fff;
+
+    width: 100px;
+    height: 35px;
+}
+
+.movie-section {
+    margin-left: 37px;
+    padding-bottom: 30px;
+}
+
+.movies-description {
+    width: 45%;
+    font-size: 20px;
+}
+
+.Movies {
+    padding-top: 90px;
+}
+
+.Movies-div {
+    margin-left: 13px;
+}
+
+.second-carousel {
+    margin-top: 0px;
+}
+
+.home-header {
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin-left: -15px;
+}
+
+.search-icon {
+
+    background-color: black;
+    position: relative;
+    bottom: -8px;
+    left: 12px;
+    /* width: 0px; */
+
+}
+
+.search {
+    background: black;
+    padding-left: 12px;
+    outline: none;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+}
+
+.search::placeholder {
+    color: azure;
+}
+
+.search-wrapper {
+    /* border: 1px solid gray; */
+    background-color: black;
+    display: flex;
+    border: 1px solid gray;
+    align-items: center;
+}
+
+
+
+/* #A3A3A3  */
+
+@media (width <=376px) {
+    .header-left-div {
+        cursor: pointer;
+        /* margin-left: 300px; */
+    }
+
+    .header-right-div {
+        cursor: pointer;
+    }
+
+    .header-left-div-img {
+        width: 130px;
+        height: 40px;
+    }
+
+    .movie-img {
+        width: 220px;
+        border-radius: 2px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .join-button {
+        border-radius: 2px;
+        width: 130px;
+        height: 35px;
+    }
+
+    .Tv-shows {
+        position: relative;
+        top: 7px;
+    }
+
+    .button-sign {
+        border: 1px solid gray;
+        border-radius: 2px;
+        color: #fff;
+
+        width: 100px;
+        height: 35px;
+    }
+
+    .movie-section {
+        margin-left: 37px;
+        padding-bottom: 30px;
+    }
+
+    .movies-description {
+        width: 45%;
+        font-size: 20px;
+    }
+
+    .Movies {
+        padding-top: 90px;
+    }
+
+    .Movies-div {
+        margin-left: 13px;
+    }
+
+    .second-carousel {
+        margin-top: 0px;
+    }
+
+    .home-header {
+        position: fixed;
+        z-index: 2;
+        background-color: black;
+        justify-content: space-between;
+        /* width: 100%; */
+        margin-left: -15px;
+    }
+
+    .search-icon {
+
+        background-color: black;
+        position: relative;
+        bottom: -8px;
+        left: 12px;
+        /* width: 0px; */
+
+    }
+
+    .search {
+        background: black;
+        padding-left: 12px;
+        outline: none;
+        border-radius: 4px;
+        border: 0;
+        color: #fff;
+    }
+
+    .search::placeholder {
+        color: azure;
+    }
+
+    .search-wrapper {
+        /* border: 1px solid gray; */
+        background-color: black;
+        display: flex;
+        border: 1px solid gray;
+        align-items: center;
+    }
+}
